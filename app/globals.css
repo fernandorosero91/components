@@ -126,6 +126,9 @@ body {
 .sidebar-footer {
   position: relative;
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .contact-button {
@@ -136,9 +139,11 @@ body {
   background: white;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
   position: relative;
   z-index: 2;
+  max-width: 280px;
 }
 
 .question-icon {
@@ -179,6 +184,7 @@ body {
   right: -30px;
   z-index: 1;
   opacity: 0.98;
+  pointer-events: none;
 }
 
 /* ========== STEPPER HORIZONTAL ========== */
