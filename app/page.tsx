@@ -47,7 +47,8 @@ export default function Home() {
             <div className="step-icon-wrapper">
               <div className="step-icon blue">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <rect x="6" y="6" width="8" height="8" rx="1.5" fill="white"/>
+                  <rect x="5" y="7" width="4" height="8" rx="1" fill="white"/>
+                  <rect x="11" y="5" width="4" height="10" rx="1" fill="white"/>
                 </svg>
               </div>
               <div className="step-line"></div>
@@ -143,8 +144,9 @@ export default function Home() {
 
         <div className="stepper-step active">
           <div className="stepper-icon blue">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="5" fill="white"/>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <rect x="6" y="9" width="8" height="7" rx="1" fill="white"/>
+              <path d="M8 9V7C8 5.89543 8.89543 5 10 5C11.1046 5 12 5.89543 12 7V9" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           </div>
           <div className="stepper-line"></div>
@@ -157,8 +159,11 @@ export default function Home() {
 
         <div className="stepper-step">
           <div className="stepper-icon gray">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <rect x="8" y="8" width="8" height="8" rx="1" stroke="#d1d5db" strokeWidth="2"/>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <rect x="6" y="6" width="3" height="3" rx="0.5" stroke="#9ca3af" strokeWidth="1.5"/>
+              <rect x="11" y="6" width="3" height="3" rx="0.5" stroke="#9ca3af" strokeWidth="1.5"/>
+              <rect x="6" y="11" width="3" height="3" rx="0.5" stroke="#9ca3af" strokeWidth="1.5"/>
+              <rect x="11" y="11" width="3" height="3" rx="0.5" stroke="#9ca3af" strokeWidth="1.5"/>
             </svg>
           </div>
           <div className="stepper-content">
@@ -190,7 +195,7 @@ export default function Home() {
             <div className="blue-step active">
               <div className="blue-step-icon blue-light">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                  <circle cx="9" cy="9" r="4" fill="white"/>
+                  <circle cx="9" cy="9" r="3" fill="white"/>
                 </svg>
               </div>
               <div className="blue-step-content">
@@ -210,7 +215,8 @@ export default function Home() {
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
               <circle cx="25" cy="25" r="25" fill="#e0e7ff"/>
               <circle cx="25" cy="25" r="15" fill="#5b5ff9"/>
-              <circle cx="25" cy="25" r="6" fill="white"/>
+              <rect x="20" y="24" width="10" height="8" rx="1" fill="white"/>
+              <path d="M22 24V21C22 19.3431 23.3431 18 25 18C26.6569 18 28 19.3431 28 21V24" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           </div>
           <div className="card-white-content">
@@ -239,7 +245,7 @@ export default function Home() {
             <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
               <circle cx="26" cy="26" r="26" fill="#e0e7ff"/>
               <circle cx="26" cy="26" r="18" fill="#5b5ff9"/>
-              <circle cx="26" cy="26" r="6" fill="white"/>
+              <text x="26" y="32" fontSize="16" fill="white" textAnchor="middle" fontWeight="700">$</text>
             </svg>
           </div>
           <div className="form-header-text">
