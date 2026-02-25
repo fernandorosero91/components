@@ -82,11 +82,30 @@ export default function Home() {
             </div>
           </div>
           <div className="decorative-image">
-            <svg width="120" height="140" viewBox="0 0 120 140" fill="none">
-              <path d="M20 140L60 80L100 140H20Z" fill="#5b6fd8" opacity="0.6"/>
-              <path d="M40 140L60 100L80 140H40Z" fill="#4f5fd1" opacity="0.7"/>
-              <path d="M50 140L60 115L70 140H50Z" fill="#4353ca" opacity="0.8"/>
-              <rect x="55" y="0" width="10" height="120" fill="#7c8ce3" opacity="0.5"/>
+            <svg width="140" height="180" viewBox="0 0 140 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+              {/* Barra vertical clara */}
+              <rect x="60" y="0" width="20" height="140" fill="#b8c5e8" opacity="0.4"/>
+              
+              {/* Triángulo grande inferior */}
+              <path d="M20 180 L80 100 L140 180 Z" fill="#7a8bc4" opacity="0.65"/>
+              
+              {/* Triángulo medio */}
+              <path d="M40 180 L80 120 L120 180 Z" fill="#6578b8" opacity="0.75"/>
+              
+              {/* Triángulo pequeño */}
+              <path d="M55 180 L80 140 L105 180 Z" fill="#5568ac" opacity="0.85"/>
+              
+              {/* Polígono lateral derecho superior */}
+              <path d="M100 100 L140 120 L140 140 L120 130 Z" fill="#8a9bd0" opacity="0.5"/>
+              
+              {/* Polígono lateral derecho medio */}
+              <path d="M100 120 L140 140 L140 160 L110 145 Z" fill="#7588c2" opacity="0.6"/>
+              
+              {/* Polígono lateral derecho inferior */}
+              <path d="M100 145 L140 160 L140 180 L100 170 Z" fill="#6075b5" opacity="0.7"/>
+              
+              {/* Detalles adicionales de sombra */}
+              <path d="M80 120 L100 130 L100 145 L80 140 Z" fill="#5a6db0" opacity="0.4"/>
             </svg>
           </div>
         </div>

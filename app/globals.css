@@ -170,10 +170,10 @@ body {
 
 .decorative-image {
   position: absolute;
-  bottom: -18px;
-  right: -8px;
+  bottom: -25px;
+  right: -15px;
   z-index: 1;
-  opacity: 0.88;
+  opacity: 0.92;
 }
 
 /* ========== STEPPER HORIZONTAL ========== */
