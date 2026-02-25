@@ -5,9 +5,9 @@ export default function Home() {
       <div className="sidebar">
         <div className="sidebar-header">
           <div className="sidebar-logo">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-              <rect width="32" height="32" rx="8" fill="#4f46e5"/>
-              <rect x="12" y="12" width="8" height="8" rx="2" fill="white"/>
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none">
+              <rect width="44" height="44" rx="10" fill="#5b5ff9"/>
+              <circle cx="22" cy="22" r="7" fill="white"/>
             </svg>
           </div>
         </div>
@@ -16,8 +16,8 @@ export default function Home() {
           <div className="step-item completed">
             <div className="step-icon-wrapper">
               <div className="step-icon green">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M16 6L8 14L4 10" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 7L10 15L6 11" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               <div className="step-line"></div>
@@ -31,8 +31,8 @@ export default function Home() {
           <div className="step-item completed">
             <div className="step-icon-wrapper">
               <div className="step-icon green">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M16 6L8 14L4 10" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M18 7L10 15L6 11" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               <div className="step-line"></div>
@@ -46,12 +46,12 @@ export default function Home() {
           <div className="step-item active">
             <div className="step-icon-wrapper">
               <div className="step-icon blue">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <rect x="5" y="7" width="4" height="8" rx="1" fill="white"/>
-                  <rect x="11" y="5" width="4" height="10" rx="1" fill="white"/>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <rect x="7" y="9" width="4" height="9" rx="1" fill="white"/>
+                  <rect x="13" y="7" width="4" height="11" rx="1" fill="white"/>
                 </svg>
               </div>
-              <div className="step-line"></div>
+              <div className="step-line gray"></div>
             </div>
             <div className="step-content">
               <div className="step-label">STEP 3</div>
@@ -62,8 +62,8 @@ export default function Home() {
           <div className="step-item">
             <div className="step-icon-wrapper">
               <div className="step-icon gray">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <text x="10" y="14" fontSize="14" fill="#9ca3af" textAnchor="middle" fontWeight="600">$</text>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <text x="12" y="16" fontSize="16" fill="#9ca3af" textAnchor="middle" fontWeight="700">$</text>
                 </svg>
               </div>
             </div>
@@ -83,34 +83,52 @@ export default function Home() {
             </div>
           </div>
           <div className="decorative-image">
-            <svg width="180" height="220" viewBox="0 0 180 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-              {/* Barra vertical clara superior */}
-              <rect x="75" y="0" width="30" height="160" fill="#b8c5e8" opacity="0.35"/>
+            <svg width="160" height="240" viewBox="0 0 160 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+              {/* Rectángulo vertical superior - azul claro */}
+              <rect x="90" y="0" width="70" height="140" fill="#a8b8dc" opacity="0.55"/>
               
-              {/* Triángulo grande base */}
-              <path d="M30 220 L100 130 L170 220 Z" fill="#7a8bc4" opacity="0.7"/>
+              {/* Línea diagonal principal en rectángulo superior */}
+              <line x1="90" y1="0" x2="160" y2="140" stroke="#5568a8" strokeWidth="2.5" opacity="0.45"/>
               
-              {/* Triángulo medio */}
-              <path d="M50 220 L100 150 L150 220 Z" fill="#6578b8" opacity="0.8"/>
+              {/* Triángulo blanco superior izquierdo */}
+              <path d="M50 120 L90 80 L90 140 Z" fill="#e8ecf4" opacity="0.85"/>
               
-              {/* Triángulo pequeño central */}
-              <path d="M70 220 L100 170 L130 220 Z" fill="#5568ac" opacity="0.9"/>
+              {/* Línea en triángulo blanco superior */}
+              <line x1="60" y1="110" x2="90" y2="80" stroke="#c5d0e8" strokeWidth="1.5" opacity="0.4"/>
               
-              {/* Polígono lateral derecho superior - más grande */}
-              <path d="M120 120 L170 140 L170 165 L145 150 Z" fill="#8a9bd0" opacity="0.55"/>
+              {/* Polígono medio derecho - azul medio */}
+              <path d="M90 140 L160 140 L160 180 L110 180 Z" fill="#7a8bc4" opacity="0.75"/>
               
-              {/* Polígono lateral derecho medio - más grande */}
-              <path d="M120 150 L170 165 L170 190 L130 170 Z" fill="#7588c2" opacity="0.65"/>
+              {/* Línea diagonal en polígono medio */}
+              <line x1="90" y1="140" x2="160" y2="180" stroke="#5568a8" strokeWidth="2.5" opacity="0.5"/>
               
-              {/* Polígono lateral derecho inferior - más grande */}
-              <path d="M120 175 L170 190 L170 220 L120 205 Z" fill="#6075b5" opacity="0.75"/>
+              {/* Triángulo blanco medio izquierdo */}
+              <path d="M40 180 L90 140 L110 180 Z" fill="#dde2ed" opacity="0.9"/>
               
-              {/* Detalles adicionales de sombra y profundidad */}
-              <path d="M100 150 L120 160 L120 175 L100 170 Z" fill="#5a6db0" opacity="0.45"/>
+              {/* Línea en triángulo blanco medio */}
+              <line x1="55" y1="170" x2="90" y2="140" stroke="#b8c5d8" strokeWidth="1.5" opacity="0.35"/>
               
-              {/* Líneas de detalle */}
-              <line x1="145" y1="150" x2="170" y2="165" stroke="#4f5fa8" strokeWidth="1" opacity="0.3"/>
-              <line x1="130" y1="170" x2="170" y2="190" stroke="#4f5fa8" strokeWidth="1" opacity="0.3"/>
+              {/* Polígono inferior derecho - azul oscuro */}
+              <path d="M90 180 L160 180 L160 240 L90 240 Z" fill="#6075b5" opacity="0.85"/>
+              
+              {/* Línea diagonal en polígono inferior */}
+              <line x1="90" y1="180" x2="160" y2="240" stroke="#4f5fa8" strokeWidth="2.5" opacity="0.55"/>
+              
+              {/* Triángulo inferior izquierdo claro */}
+              <path d="M30 240 L90 180 L90 240 Z" fill="#c5d0e8" opacity="0.7"/>
+              
+              {/* Polígono de conexión central */}
+              <path d="M55 170 L90 140 L90 180 L70 190 Z" fill="#8a9bd5" opacity="0.7"/>
+              
+              {/* Línea de detalle en conexión */}
+              <line x1="70" y1="190" x2="90" y2="180" stroke="#6b80bd" strokeWidth="1.5" opacity="0.4"/>
+              
+              {/* Punto de intersección central */}
+              <circle cx="90" cy="180" r="3" fill="#5568a8" opacity="0.7"/>
+              
+              {/* Líneas de detalle adicionales */}
+              <line x1="110" y1="180" x2="130" y2="190" stroke="#5568a8" strokeWidth="1.5" opacity="0.35"/>
+              <line x1="90" y1="210" x2="140" y2="220" stroke="#4f5fa8" strokeWidth="1.5" opacity="0.4"/>
             </svg>
           </div>
         </div>

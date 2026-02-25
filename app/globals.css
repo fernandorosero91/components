@@ -96,6 +96,10 @@ body {
   margin: 4px 0;
 }
 
+.step-line.gray {
+  background: #d8dce5;
+}
+
 .step-content {
   padding-top: 9px;
 }
@@ -128,11 +132,11 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 15px 17px;
+  padding: 14px 18px;
   background: white;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
   position: relative;
   z-index: 2;
 }
@@ -145,7 +149,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   color: #6b7280;
   flex-shrink: 0;
@@ -158,22 +162,23 @@ body {
 }
 
 .contact-label {
-  font-size: 10px;
+  font-size: 11px;
   color: #9ca3af;
+  font-weight: 400;
 }
 
 .contact-link {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: #1f2937;
 }
 
 .decorative-image {
   position: absolute;
-  bottom: -30px;
-  right: -20px;
+  bottom: -40px;
+  right: -30px;
   z-index: 1;
-  opacity: 0.95;
+  opacity: 0.98;
 }
 
 /* ========== STEPPER HORIZONTAL ========== */
