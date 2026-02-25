@@ -215,64 +215,54 @@ export default function Home() {
 
       {/* PAYMENT FORM */}
       <div className="payment-form">
-        <div className="form-header">
-          <div className="form-step-indicator">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="24" fill="#e0e7ff"/>
-              <text x="24" y="30" fontSize="18" fill="#4f46e5" textAnchor="middle" fontWeight="700">$</text>
+        <div className="form-header-section">
+          <div className="form-icon-circle">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <circle cx="25" cy="25" r="25" fill="#e0e7ff"/>
+              <circle cx="25" cy="25" r="17" fill="#5b5ff9"/>
+              <circle cx="25" cy="25" r="10" fill="white"/>
             </svg>
           </div>
-          <div className="form-header-content">
-            <div className="form-step-label">STEP 4 / 5</div>
-            <div className="form-title">Payment Details</div>
+          <div className="form-header-text">
+            <div className="form-step-number">STEP 4 / 5</div>
+            <div className="form-main-title">Payment Details</div>
           </div>
         </div>
-        <div className="form-progress-line"></div>
 
-        <div className="form-section">
-          <div className="form-section-title">CARD DETAILS</div>
-          <div className="form-group">
-            <input type="text" className="form-input" value="Alex Parkinson" readOnly />
-          </div>
-          <div className="form-group">
-            <div className="card-number-input">
-              <svg width="28" height="20" viewBox="0 0 28 20" fill="none">
-                <rect width="28" height="20" rx="3" fill="#1e40af"/>
-                <rect x="3" y="3" width="22" height="14" rx="2" fill="#3b82f6"/>
+        <div className="form-divider"></div>
+
+        <div className="form-body">
+          <div className="form-section-block">
+            <div className="form-section-header">CARD DETAILS</div>
+            <input type="text" className="form-field" value="Alex Parkinson" readOnly />
+            <div className="card-input-wrapper">
+              <svg width="28" height="18" viewBox="0 0 28 18" fill="none">
+                <rect width="28" height="18" rx="3" fill="#1e3a8a"/>
+                <rect x="3" y="3" width="22" height="12" rx="2" fill="#3b82f6"/>
               </svg>
-              <input type="text" className="form-input-inline" value="4858 3445 |" readOnly />
+              <input type="text" className="form-field-inline" value="4858 3445 |" readOnly />
+            </div>
+            <div className="form-row-fields">
+              <input type="text" className="form-field" placeholder="Expiry" />
+              <input type="text" className="form-field" placeholder="CVV" />
             </div>
           </div>
-          <div className="form-row">
-            <div className="form-group half">
-              <input type="text" className="form-input" placeholder="Expiry" />
-            </div>
-            <div className="form-group half">
-              <input type="text" className="form-input" placeholder="CVV" />
+
+          <div className="form-section-block">
+            <div className="form-section-header">BILLING ADDRESS</div>
+            <input type="text" className="form-field" placeholder="Street Address" />
+            <div className="form-row-fields">
+              <input type="text" className="form-field" placeholder="City" />
+              <input type="text" className="form-field" placeholder="State" />
             </div>
           </div>
         </div>
 
-        <div className="form-section">
-          <div className="form-section-title">BILLING ADDRESS</div>
-          <div className="form-group">
-            <input type="text" className="form-input" placeholder="Street Address" />
-          </div>
-          <div className="form-row">
-            <div className="form-group half">
-              <input type="text" className="form-input" placeholder="City" />
-            </div>
-            <div className="form-group half">
-              <input type="text" className="form-input" placeholder="State" />
-            </div>
-          </div>
-        </div>
-
-        <div className="form-actions">
-          <button className="btn-secondary">
+        <div className="form-button-group">
+          <button className="form-btn-prev">
             <span>←</span> Previous
           </button>
-          <button className="btn-primary">
+          <button className="form-btn-next">
             Next <span>→</span>
           </button>
         </div>
