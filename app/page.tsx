@@ -188,10 +188,10 @@ export default function Home() {
         {/* WHITE CARD - Application Review */}
         <div className="card-white">
           <div className="card-white-icon">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="24" fill="#e0e7ff"/>
-              <circle cx="24" cy="24" r="14" fill="#4f46e5"/>
-              <circle cx="24" cy="24" r="8" fill="white"/>
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <circle cx="25" cy="25" r="25" fill="#e0e7ff"/>
+              <circle cx="25" cy="25" r="15" fill="#5b5ff9"/>
+              <circle cx="25" cy="25" r="6" fill="white"/>
             </svg>
           </div>
           <div className="card-white-content">
@@ -217,10 +217,10 @@ export default function Home() {
       <div className="payment-form">
         <div className="form-header-section">
           <div className="form-icon-circle">
-            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
-              <circle cx="25" cy="25" r="25" fill="#e0e7ff"/>
-              <circle cx="25" cy="25" r="17" fill="#5b5ff9"/>
-              <circle cx="25" cy="25" r="10" fill="white"/>
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+              <circle cx="26" cy="26" r="26" fill="#e0e7ff"/>
+              <circle cx="26" cy="26" r="18" fill="#5b5ff9"/>
+              <circle cx="26" cy="26" r="6" fill="white"/>
             </svg>
           </div>
           <div className="form-header-text">
